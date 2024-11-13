@@ -55,6 +55,8 @@ University of Leicester.
 
 ## Single-cell RNA seq. Analysis
 
+- Analysis using the Seurat R package pipeline
+
 ---
 
 ## Contents

@@ -1,5 +1,4 @@
 # Origin_Duplication_and_diversification_of_Opsins_in_Vertebrates
----
 
 ## Overview
 
@@ -10,7 +9,7 @@ Opsins, as key light-sensitive proteins in the G protein-coupled receptor (GPCR)
 By studying opsins, we gain insights into the molecular evolution that allows species to adapt to different light environments and visual requirements.
 
 The study examines opsin gene duplications and losses, and their impact on gene expression patterns across vertebrate lineages.
-We utilised a combination of bioinformatics tools, including phylogenomic analyses and single-cell RNA sequencing, to reconstruct the evolutionary history of opsins.
+We utilised a combination of bioinformatics tools, including phylogenomic analyses and single-cell RNA sequencing,to reconstruct the evolutionary history of opsins.
 The analysis includes data from 364 vertebrate species and over 500 known opsin sequences, covering a wide taxonomic range.
 
 Our methodology integrates multiple approaches:
@@ -27,3 +26,6 @@ Key findings include:
 
 This project provides a detailed exploration of opsin evolution, offering valuable insights into the molecular mechanisms that drive visual diversity in vertebrates.
 Our findings contribute to a better understanding of the genetic basis for light perception and adaptation, with potential applications in vision science and evolutionary biology.
+---
+
+## Phylogenetic Analysis

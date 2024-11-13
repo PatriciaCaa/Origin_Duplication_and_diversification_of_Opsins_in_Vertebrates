@@ -9,14 +9,21 @@ Opsins, as key light-sensitive proteins in the G protein-coupled receptor (GPCR)
 By studying opsins, we gain insights into the molecular evolution that allows species to adapt to different light environments and visual requirements.
 
 The study examines opsin gene duplications and losses, and their impact on gene expression patterns across vertebrate lineages.
-We utilised a combination of bioinformatics tools, including phylogenomic analyses and single-cell RNA sequencing,to reconstruct the evolutionary history of opsins.
+We utilised a combination of bioinformatics tools, including phylogenomic analyses and single-cell RNA sequencing to reconstruct the evolutionary history of opsins.
 The analysis includes data from 364 vertebrate species and over 500 known opsin sequences, covering a wide taxonomic range.
 
 Our methodology integrates multiple approaches:
 
-    Data Collection: We gathered proteomic and transcriptomic data from public databases, selecting a diverse set of species for a comprehensive analysis.
-    Phylogenetic Analysis: To explore the relationships between opsins, we constructed phylogenetic trees, helping to identify conserved and divergent evolutionary paths among these genes.
-    Single-Cell Analysis: Single-cell RNA sequencing data was used to analyse opsin gene expression in specific tissues, such as the retina, across different species. 
+    **Data Collection**: A total of 1115 whole vertebrate species proteomes were downloaded from the two databases, from which 364 species were manually selected based on their BUSCO
+    (Benchmarking Universal Single-copy Orthologs) completeness score, ensuring taxonomical diversity and a total of 525 available known opsin sequences were downloaded 
+    from the UniProtKB database (367 query sequences), and the GPCRdb database (158 query sequences).
+    We searched the literature for Single-cell transcriptomic datasets of the eye/retina and collected 23 datasets from previous studies. We also obtained the 
+    corresponding proteomes from the genomes the datasets were mapped to.
+    
+    **Phylogenetic Analysis**: To explore the relationships between opsins, we constructed phylogenetic trees, helping to identify conserved and divergent evolutionary paths among these genes.
+    
+    **Single-Cell Analysis**: Single-cell RNA sequencing data was used to analyse opsin gene expression in specific tissues, such as the retina, across different species. 
+    
     This approach allowed us to speculate about cell-type-specific expression patterns and examine how opsins function in various environmental contexts.
 
 Key findings include:
@@ -31,7 +38,7 @@ Our findings contribute to a better understanding of the genetic basis for light
 
 ## Tools
 
-We performed the analysis on a Linux laptop (intel Core i7, Linux Mint 21.1 “Vera”
+The analysis was performed on a Linux laptop (intel Core i7, Linux Mint 21.1 “Vera”
 operating system, based on Ubuntu Linux 22.04, with bash (Bourne again shell) as the
 default shell), and we used the ALICE High-Performance Computing facility at the
 University of Leicester.
@@ -39,6 +46,10 @@ University of Leicester.
 ---
 
 ## Phylogenetic Analysis
+
+- Data mining and pre-processing
+- Homologous identification
+- Generation of Phylogenetic trees
 
 ---
 
@@ -48,7 +59,7 @@ University of Leicester.
 
 ## Contents
 
-**Data Collection**: Scripts and information on where and how to download the necessary data
+**Data Collection**: Scripts to download the necessary data
 
 **Phylogenetic Analysis**: Scripts to process the data and generate the phylogenetic tree
 

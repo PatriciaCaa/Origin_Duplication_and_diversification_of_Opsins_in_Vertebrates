@@ -14,15 +14,15 @@ The analysis includes data from 364 vertebrate species and over 500 known opsin 
 
 Our methodology integrates multiple approaches:
 
-    **Data Collection**: A total of 1115 whole vertebrate species proteomes were downloaded from the two databases, from which 364 species were manually selected based on their BUSCO
+    Data Collection: A total of 1115 whole vertebrate species proteomes were downloaded from the two databases, from which 364 species were manually selected based on their BUSCO
     (Benchmarking Universal Single-copy Orthologs) completeness score, ensuring taxonomical diversity and a total of 525 available known opsin sequences were downloaded 
     from the UniProtKB database (367 query sequences), and the GPCRdb database (158 query sequences).
     We searched the literature for Single-cell transcriptomic datasets of the eye/retina and collected 23 datasets from previous studies. We also obtained the 
     corresponding proteomes from the genomes the datasets were mapped to.
     
-    **Phylogenetic Analysis**: To explore the relationships between opsins, we constructed phylogenetic trees, helping to identify conserved and divergent evolutionary paths among these genes.
+    Phylogenetic Analysis: To explore the relationships between opsins, we constructed phylogenetic trees, helping to identify conserved and divergent evolutionary paths among these genes.
     
-    **Single-Cell Analysis**: Single-cell RNA sequencing data was used to analyse opsin gene expression in specific tissues, such as the retina, across different species. 
+    Single-Cell Analysis: Single-cell RNA sequencing data was used to analyse opsin gene expression in specific tissues, such as the retina, across different species. 
     
     This approach allowed us to speculate about cell-type-specific expression patterns and examine how opsins function in various environmental contexts.
 

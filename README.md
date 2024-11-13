@@ -26,6 +26,7 @@ Key findings include:
 
 This project provides a detailed exploration of opsin evolution, offering valuable insights into the molecular mechanisms that drive visual diversity in vertebrates.
 Our findings contribute to a better understanding of the genetic basis for light perception and adaptation, with potential applications in vision science and evolutionary biology.
+
 ---
 
 ## Phylogenetic Analysis

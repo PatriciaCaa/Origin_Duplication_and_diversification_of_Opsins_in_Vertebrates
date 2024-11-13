@@ -35,3 +35,22 @@ We performed the analysis on a Linux laptop (intel Core i7, Linux Mint 21.1 “V
 operating system, based on Ubuntu Linux 22.04, with bash (Bourne again shell) as the
 default shell), and we used the ALICE High-Performance Computing facility at the
 University of Leicester.
+
+---
+
+## Phylogenetic Analysis
+
+---
+
+## Single-cell RNA seq. Analysis
+
+---
+
+## Contents
+
+**Data Collection**: Scripts and information on where and how to download the necessary data
+
+**Phylogenetic Analysis**: Scripts to process the data and generate the phylogenetic tree
+
+- Preparing the files
+- Sorting the genomes

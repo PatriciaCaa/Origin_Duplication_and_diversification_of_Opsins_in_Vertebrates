@@ -1,5 +1,5 @@
 
-### BAsh Script to download genome datasets in a automated mode using pre-selected accession numbers
+### Bash Script to download genome datasets in an automated mode using pre-selected accession numbers
 
 #!/bin/bash
 

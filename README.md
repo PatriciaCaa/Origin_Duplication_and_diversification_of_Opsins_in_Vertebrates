@@ -1,6 +1,6 @@
-# Origin, Duplication, and diversification of Opsins in Vertebrates
+# 🧬 Origin, Duplication, and Diversification of Opsins in Vertebrates
 
-## Overview
+## 📖 Overview
 
 **This project was my final year dissertation project as part of my MSc Bioinformatics course.**
 
@@ -9,8 +9,8 @@ Opsins, as key light-sensitive proteins in the G protein-coupled receptor (GPCR)
 By studying opsins, we gain insights into the molecular evolution that allows species to adapt to different light environments and visual requirements.
 
 The study examines opsin gene duplications and losses, and their impact on gene expression patterns across vertebrate lineages.
-We utilised a combination of bioinformatics tools, including phylogenomic analyses and single-cell RNA sequencing to reconstruct the evolutionary history of opsins.
-The analysis includes data from 364 vertebrate species and over 500 known opsin sequences, covering a wide taxonomic range.
+We used bioinformatics tools, including phylogenomic analyses and single-cell RNA sequencing to reconstruct the evolutionary history of opsins.
+The analysis includes data from 364 vertebrate species and over 500 known opsin sequences, covering a broad taxonomic range.
 
 Our methodology integrates multiple approaches:
 
@@ -26,22 +26,15 @@ Our methodology integrates multiple approaches:
     
     This approach allowed us to speculate about cell-type-specific expression patterns and examine how opsins function in various environmental contexts.
 
-Key findings include:
+🌟 Key Findings
 
-    Significant gene duplications in certain opsin families.
-    Identification of conserved opsins that are expressed across a broad range of vertebrates.
+    Significant gene duplications in specific opsin subfamilies.
 
-This project provides a detailed exploration of opsin evolution, offering valuable insights into the molecular mechanisms that drive visual diversity in vertebrates.
-Our findings contribute to a better understanding of the genetic basis for light perception and adaptation, with potential applications in vision science and evolutionary biology.
+    Identification of conserved opsins expressed across a wide range of vertebrates.
 
----
+    Insights into functional divergence and cell-type-specific roles of opsins in the vertebrate retina.
 
-## Tools
-
-The analysis was performed on a Linux laptop (intel Core i7, Linux Mint 21.1 “Vera”
-operating system, based on Ubuntu Linux 22.04, with bash (Bourne again shell) as the
-default shell), and we used the ALICE High-Performance Computing facility at the
-University of Leicester.
+These results enhance our understanding of visual system evolution and highlight the genomic and transcriptomic complexity underlying light detection mechanisms.
 
 ---
 
@@ -51,19 +44,38 @@ University of Leicester.
 - Homologous identification
 - Generation of Phylogenetic trees
 
+Conducted multiple sequence alignment, trimming, and constructed phylogenetic trees to infer evolutionary relationships.
+
 ---
 
 ## Single-cell RNA seq. Analysis
 
-- Analysis using the Seurat R package pipeline
-
+- Processed and analyzed scRNA-seq data using the Seurat R package.
+- Investigated cell-type-specific expression of opsins in chick and zebrafish retina.
+  
 ---
 
-## Contents
+## 🛠️ Tools & Environment
 
-**Data Collection**: Scripts to download the necessary data
+    Linux Mint 21.1 “Vera” (based on Ubuntu 22.04)
 
-**Phylogenetic Analysis**: Scripts to process the data and generate the phylogenetic tree
+    Bash (Bourne Again Shell)
 
-- Preparing the files
-- Sorting the genomes
+    ALICE High-Performance Computing (University of Leicester)
+
+    Tools: Seurat, MAFFT, TrimAl, IQ-TREE, ggtree, rotl, diamond
+
+## 🧭 Project Structure
+
+01_data_collection/
+
+Scripts for downloading proteomes and known opsin sequences.
+02_homolog_search/
+
+DIAMOND BLASTP searches, FASTA header renaming, and homolog filtering.
+03_phylogenetic_analysis/
+
+Multiple sequence alignment, trimming, and opsin phylogenetic tree generation.
+04_single_cell_analysis/
+
+Seurat-based pipelines for analyzing chick and zebrafish retinal scRNA-seq datasets.

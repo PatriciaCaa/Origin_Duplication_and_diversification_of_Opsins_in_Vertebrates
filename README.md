@@ -81,4 +81,4 @@ Conducted multiple sequence alignment, trimming, and constructed phylogenetic tr
         ├── 04.0-create_seurat_objects_chick.R
         ├── 04.1-scRNAseq_chick_retina_analysis.R
         ├── 04.2-scRNAseq_zebrafish-analysis.R
-        └── README.md  ← explains the individual scripts
+        └── README.md  

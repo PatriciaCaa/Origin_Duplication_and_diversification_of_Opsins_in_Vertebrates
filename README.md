@@ -67,15 +67,18 @@ Conducted multiple sequence alignment, trimming, and constructed phylogenetic tr
 
 ## 🧭 Project Structure
 
-01_data_collection/
+01_data_collection/  
+    Scripts for downloading proteomes and known opsin sequences.
 
-Scripts for downloading proteomes and known opsin sequences.
-02_homolog_search/
+02_homolog_search/  
+    DIAMOND BLASTP searches, FASTA header renaming, and homolog filtering.
 
-DIAMOND BLASTP searches, FASTA header renaming, and homolog filtering.
-03_phylogenetic_analysis/
+03_phylogenetic_analysis/  
+    Multiple sequence alignment, trimming, and opsin phylogenetic tree generation.
 
-Multiple sequence alignment, trimming, and opsin phylogenetic tree generation.
-04_single_cell_analysis/
-
-Seurat-based pipelines for analyzing chick and zebrafish retinal scRNA-seq datasets.
+04_single_cell_analysis/  
+    Seurat-based pipelines for analyzing chick and zebrafish retinal scRNA-seq datasets.
+        ├── 04.0-create_seurat_objects_chick.R
+        ├── 04.1-scRNAseq_chick_retina_analysis.R
+        ├── 04.2-scRNAseq_zebrafish-analysis.R
+        └── README.md  ← explains the individual scripts

@@ -1,4 +1,4 @@
-# Origin_Duplication_and_diversification_of_Opsins_in_Vertebrates
+# Origin, Duplication, and diversification of Opsins in Vertebrates
 
 ## Overview
 

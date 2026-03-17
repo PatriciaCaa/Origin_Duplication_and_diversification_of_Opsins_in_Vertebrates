@@ -1,6 +1,6 @@
-# 🧬 Origin, Duplication, and Diversification of Opsins in Vertebrates
+# Origin, Duplication, and Diversification of Opsins in Vertebrates
 
-## 📖 Overview
+## Overview
 
 **This project was my final year dissertation project as part of my MSc Bioinformatics course.**
 
@@ -26,7 +26,7 @@ Our methodology integrates multiple approaches:
     
     This approach allowed us to speculate about cell-type-specific expression patterns and examine how opsins function in various environmental contexts.
 
-🌟 Key Findings
+Key Findings
 
     Significant gene duplications in specific opsin subfamilies.
 
@@ -55,7 +55,7 @@ Conducted multiple sequence alignment, trimming, and constructed phylogenetic tr
   
 ---
 
-## 🛠️ Tools & Environment
+## Tools & Environment
 
     Linux Mint 21.1 “Vera” (based on Ubuntu 22.04)
 
@@ -65,7 +65,7 @@ Conducted multiple sequence alignment, trimming, and constructed phylogenetic tr
 
     Tools: Seurat, MAFFT, TrimAl, IQ-TREE, ggtree, rotl, diamond
 
-## 🧭 Project Structure
+## Project Structure
 
 01_data_collection/  
     Scripts for downloading proteomes and known opsin sequences.

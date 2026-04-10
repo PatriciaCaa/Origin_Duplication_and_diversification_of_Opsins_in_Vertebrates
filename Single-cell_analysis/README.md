@@ -1,6 +1,6 @@
 # Single-cell RNA-seq Analysis
 
-This folder contains scripts for processing and analyzing single-cell RNA sequencing data from the retina of chick and zebrafish species.
+This folder contains scripts for processing and analysing single-cell RNA sequencing data from the retina of the chick and zebrafish species.
 
 ## Scripts
 
@@ -20,7 +20,7 @@ This folder contains scripts for processing and analyzing single-cell RNA sequen
 - Matrix
 - ggplot2
 
-All scripts were run in R using Seurat pipelines for normalization, clustering, and visualization.
+All scripts were run in R using Seurat pipelines for normalisation, clustering, and visualisation.
 
 ## Output
 
